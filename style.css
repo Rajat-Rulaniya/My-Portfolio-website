@@ -1,0 +1,117 @@
+#title {
+  background-color: rgb(228, 248, 248);
+  height: 100%;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#title h2 {
+  font-size: 2.6vw;
+}
+
+.rajat {
+  font-family: "Great Vibes";
+  font-size: 5vw;
+  margin-top: 8vh;
+  margin-bottom: 2%;
+  color: rgb(61, 65, 65);
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: 400;
+}
+
+span {
+  text-decoration: underline;
+}
+
+#Skills {
+  margin-top: 20px;
+}
+
+.main-skills-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 100%;
+}
+
+#Skills img {
+  height: 40%;
+  border-radius: 1rem;
+  border: 3px solid rgb(180, 182, 183);
+  padding: 20px;
+  margin-right: 5x;
+}
+
+#Skills > div > div {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+#Skills h3 {
+  font-family: "Cabin", sans-serif;
+}
+
+.separator {
+  color: rgb(221, 237, 232);
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.contact-button {
+  background-color: rgb(91, 178, 174);
+  color: rgb(255, 255, 255);
+  padding-left: 27px;
+  padding-right: 27px;
+  height: 100%;
+  text-decoration: none;
+  font-size: 24px;
+  border-radius: 6px;
+}
+
+#footer {
+  background-color: rgb(91, 178, 174);
+  margin-top: 90px;
+  height: 100%;
+}
+
+#footer a {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+@media (max-width: 991px) {
+  .main-skills-div {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+  }
+  #Skills img {
+    height: 100px;
+    padding: 20px;
+  }
+
+  .rajat {
+    font-size: 11vw;
+  }
+
+  .cloud {
+    height: 7vw;
+  }
+
+  #title h2 {
+    font-size: 5.4vw;
+  }
+}
